@@ -1,0 +1,269 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+    <TextView
+        android:id="@+id/five_lp_title_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="5lp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:padding="8dp"
+        />
+
+    <Button
+        android:id="@+id/add_5_lp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="20"
+        android:text="+1"
+        android:onClick="add5Lp" />
+
+    <Button
+        android:id="@+id/add_5_lp_times_5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="+5"
+        android:onClick="add5LpTime5" />
+
+    <Button
+        android:id="@+id/remove_5_lp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="20"
+        android:text="-1"
+        android:onClick="remove5Lp" />
+
+    <TextView
+        android:id="@+id/five_lp_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:text="0"
+        android:padding="8dp"
+
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/ten_lp_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="10lp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/add_10_lp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="+1"
+        android:onClick="add10Lp" />
+
+    <Button
+        android:id="@+id/add_10_lp_times_5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="+5"
+        android:onClick="add10LpTime5" />
+
+    <Button
+        android:id="@+id/remove_10_lp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="-1"
+        android:onClick="remove10Lp" />
+
+    <TextView
+        android:id="@+id/ten_lp_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/twenty_lp_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="20lp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/add_20_lp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="+1"
+        android:onClick="add20Lp" />
+
+    <Button
+        android:id="@+id/add_20_lp_times_5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="+5"
+        android:onClick="add20LpTime5" />
+
+    <Button
+        android:id="@+id/remove_20_lp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="-1"
+        android:onClick="remove20Lp" />
+
+    <TextView
+        android:id="@+id/twenty_lp_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/five_kn_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="5kn"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/add_5_kn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="+1"
+        android:onClick="add5Kn" />
+
+    <Button
+        android:id="@+id/add_5_kn_times_5"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="+5"
+        android:onClick="add5KnTime5" />
+
+    <Button
+        android:id="@+id/remove_5_kn"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="-1"
+        android:onClick="remove5Kn" />
+
+    <TextView
+        android:id="@+id/five_kn_count"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="20"
+        android:padding="8dp"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:id="@+id/reset_button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="onButtonPressed"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="16dp"        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp"
+        android:text="0"
+        android:layout_above="@id/reset_button"
+        android:id="@+id/sumCount"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerInParent="true"
+        android:onClick="sumCount"/>
+
+</RelativeLayout>
